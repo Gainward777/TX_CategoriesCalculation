@@ -1,0 +1,21 @@
+﻿<Window x:Class="TX_CategoriesCalculation.View"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TX_CategoriesCalculation"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="539.848" Width="550">
+    <Grid VerticalAlignment="Top" Margin="0,0,2,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="210*"/>
+            <RowDefinition Height="209*"/>
+        </Grid.RowDefinitions>
+        <Button Content="On Ground" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Click="Button_OnGround" Height="40" Margin="195,10,185,159" Grid.Row="1"/>
+        <Button Content="Underground" HorizontalAlignment="Center" Margin="195,96,185,73" VerticalAlignment="Center" Width="150" Click="Button_Underground" Height="40" Grid.Row="1"/>
+        <TextBox Name="projectCode" Height="30" Margin="176,79,164,101" TextWrapping="Wrap" Text="Шифр проекта" VerticalAlignment="Center" TextChanged="TextBox_TextChanged" HorizontalAlignment="Center" Width="200" SpellCheck.IsEnabled="True"/>
+        <TextBox Name="buildingNumber" HorizontalAlignment="Center" Height="30" Margin="198,143,182,0" TextWrapping="Wrap" Text="Номер сооружения" VerticalAlignment="Top" Width="120" TextChanged="buildingNumber_TextChanged"/>
+
+    </Grid>
+</Window>
+

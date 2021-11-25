@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+<AddIn Type="Application">
+                <Name>15_Ribbon</Name>
+                <Assembly>C:\ProgramData\Autodesk\Revit\Addins\2019\TX_CategoriesCalculation\TX_CategoriesCalculation.dll</Assembly>
+                <AddInId>604b1052-f742-4951-8576-c261d1991515</AddInId>
+                <FullClassName>TX_CategoriesCalculation.PluginEmbedding</FullClassName>
+                <VendorId>31GPISS</VendorId>
+                <VendorDescription>31GPISS, http://31gpiss.ru, author: Golenderov Petr</VendorDescription>
+</AddIn>
+</RevitAddIns>
